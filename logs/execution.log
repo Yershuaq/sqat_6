@@ -1,0 +1,85 @@
+2026-01-29 20:40:46,667 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[Admin-admin123-Dashboard] ---
+2026-01-29 20:40:47,570 - INFO - TEST DATA: User='Admin', Pass='admin123', Expect='Dashboard'
+2026-01-29 20:40:58,182 - INFO - Проверка: Должен быть успешный вход
+2026-01-29 20:41:00,377 - INFO - RESULT: PASSED (Dashboard loaded)
+2026-01-29 20:41:00,539 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:41:02,730 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[Admin-wrong123-Invalid] ---
+2026-01-29 20:41:03,417 - INFO - TEST DATA: User='Admin', Pass='wrong123', Expect='Invalid'
+2026-01-29 20:41:09,774 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:41:12,655 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:41:12,714 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:41:14,878 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[WrongUser-admin123-Invalid] ---
+2026-01-29 20:41:15,566 - INFO - TEST DATA: User='WrongUser', Pass='admin123', Expect='Invalid'
+2026-01-29 20:41:21,683 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:41:23,249 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:41:23,299 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:41:25,460 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[None-None-Invalid] ---
+2026-01-29 20:41:26,223 - INFO - TEST DATA: User='None', Pass='None', Expect='Invalid'
+2026-01-29 20:41:31,697 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:41:31,772 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:41:31,860 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:44:21,526 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[Admin-admin123-Dashboard] ---
+2026-01-29 20:44:22,142 - INFO - TEST DATA: User='Admin', Pass='admin123', Expect='Dashboard'
+2026-01-29 20:44:28,906 - INFO - Проверка: Должен быть успешный вход
+2026-01-29 20:44:32,007 - INFO - RESULT: PASSED (Dashboard loaded)
+2026-01-29 20:44:32,232 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:45:07,599 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[Admin-admin123-Dashboard] ---
+2026-01-29 20:45:08,262 - INFO - TEST DATA: User='Admin', Pass='admin123', Expect='Dashboard'
+2026-01-29 20:45:14,913 - INFO - Проверка: Должен быть успешный вход
+2026-01-29 20:45:20,445 - INFO - RESULT: PASSED (Dashboard loaded)
+2026-01-29 20:45:20,613 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:45:24,304 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[Admin-wrong123-Invalid] ---
+2026-01-29 20:45:25,010 - INFO - TEST DATA: User='Admin', Pass='wrong123', Expect='Invalid'
+2026-01-29 20:45:29,818 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:45:33,163 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:45:33,225 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:45:35,378 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[WrongUser-admin123-Invalid] ---
+2026-01-29 20:45:35,986 - INFO - TEST DATA: User='WrongUser', Pass='admin123', Expect='Invalid'
+2026-01-29 20:45:42,003 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:45:49,070 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:45:49,127 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:45:51,298 - INFO - --- ЗАПУСК ЛОКАЛЬНО (Chrome) для test_login_ddt[None-None-Invalid] ---
+2026-01-29 20:45:51,986 - INFO - TEST DATA: User='None', Pass='None', Expect='Invalid'
+2026-01-29 20:45:59,991 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:46:00,065 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:46:00,132 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:48:24,733 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[Admin-admin123-Dashboard] ---
+2026-01-29 20:48:29,537 - INFO - TEST DATA: User='Admin', Pass='admin123', Expect='Dashboard'
+2026-01-29 20:48:41,443 - INFO - Проверка: Должен быть успешный вход
+2026-01-29 20:48:43,030 - INFO - RESULT: PASSED (Dashboard loaded)
+2026-01-29 20:48:43,031 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:48:44,399 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[Admin-wrong123-Invalid] ---
+2026-01-29 20:48:50,552 - INFO - TEST DATA: User='Admin', Pass='wrong123', Expect='Invalid'
+2026-01-29 20:48:57,375 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:49:05,075 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:49:05,075 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:49:06,332 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[WrongUser-admin123-Invalid] ---
+2026-01-29 20:49:12,819 - INFO - TEST DATA: User='WrongUser', Pass='admin123', Expect='Invalid'
+2026-01-29 20:49:23,774 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:49:33,181 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:49:33,182 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 20:49:34,226 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[None-None-Invalid] ---
+2026-01-29 20:49:40,995 - INFO - TEST DATA: User='None', Pass='None', Expect='Invalid'
+2026-01-29 20:49:50,724 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 20:49:51,474 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 20:49:51,475 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 21:55:54,539 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[Admin-admin123-Dashboard] ---
+2026-01-29 21:56:04,124 - INFO - TEST DATA: User='Admin', Pass='admin123', Expect='Dashboard'
+2026-01-29 21:56:10,178 - INFO - Проверка: Должен быть успешный вход
+2026-01-29 21:56:11,666 - INFO - RESULT: PASSED (Dashboard loaded)
+2026-01-29 21:56:11,667 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 21:56:12,736 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[Admin-wrong123-Invalid] ---
+2026-01-29 21:56:22,956 - INFO - TEST DATA: User='Admin', Pass='wrong123', Expect='Invalid'
+2026-01-29 21:56:35,572 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 21:56:44,187 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 21:56:44,188 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 21:56:45,326 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[WrongUser-admin123-Invalid] ---
+2026-01-29 21:56:53,525 - INFO - TEST DATA: User='WrongUser', Pass='admin123', Expect='Invalid'
+2026-01-29 21:57:04,894 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 21:57:06,554 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 21:57:06,555 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
+2026-01-29 21:57:07,688 - INFO - --- ЗАПУСК В ОБЛАКЕ (BrowserStack) для test_login_ddt[None-None-Invalid] ---
+2026-01-29 21:57:16,099 - INFO - TEST DATA: User='None', Pass='None', Expect='Invalid'
+2026-01-29 21:57:21,221 - INFO - Проверка: Должна быть ошибка входа
+2026-01-29 21:57:21,572 - INFO - RESULT: PASSED (Error message displayed)
+2026-01-29 21:57:21,573 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА ---
